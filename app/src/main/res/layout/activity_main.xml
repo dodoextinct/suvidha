@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#fff"
+        android:foreground="@drawable/farmer"
+        android:id="@+id/farmer"
+        android:elevation="10dp"/>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginTop="130dp"
+        android:elevation="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buyer"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:foreground="@drawable/coins"
+        android:backgroundTint="#fff"/>
+
+</LinearLayout>

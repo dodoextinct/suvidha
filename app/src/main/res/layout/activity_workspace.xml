@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".workspace"
+    android:background="@drawable/pre">
+
+
+    <TextView
+        android:textColor="#3C5645"
+        android:textSize="30sp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/veg" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:backgroundTint=" #52be80 "
+            android:hint="@string/veg"
+            android:id="@+id/type"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor=" #52be80 "
+            android:textColorHint=" #52be80 "
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:backgroundTint=" #52be80 "
+            android:hint="@string/quan"
+            android:id="@+id/quan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor=" #52be80 "
+            android:textColorHint=" #52be80 "
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:backgroundTint=" #52be80 "
+            android:hint="@string/old"
+            android:id="@+id/time"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor=" #52be80 "
+            android:textColorHint=" #52be80 "
+            android:textSize="15sp" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinbord">
+    <Spinner
+        android:backgroundTint="@android:color/transparent"
+        android:spinnerMode="dropdown"
+        android:background="@android:drawable/btn_dropdown"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </FrameLayout>
+<LinearLayout
+    android:padding="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+        <TextView
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/click"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+        <TextView
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:id="@+id/more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/want"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+        <TextView
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:id="@+id/move"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

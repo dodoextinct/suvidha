@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80343726351",
+    "firebase_url": "https://suvidha-8a8b8.firebaseio.com",
+    "project_id": "suvidha-8a8b8",
+    "storage_bucket": "suvidha-8a8b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80343726351:android:a5c65a322a2f15db33667a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80343726351-idsk3q0rkbg32agcd9aihpbthvfs8koc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "1ca492c0ffc9059281422afa5595d3c21c3a2cb2"
+          }
+        },
+        {
+          "client_id": "80343726351-p7vbin1m1pfonb4jus7bjerigppm8lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlSPlBnwVcyc2aigHd-LKWe56YZbA8DcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80343726351-p7vbin1m1pfonb4jus7bjerigppm8lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

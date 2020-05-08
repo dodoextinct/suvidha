@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Suvidha</string>
+    <string name="welcome">welcome</string>
+    <string name="loginscreen" translatable="true">Please, LogIn!!</string>
+    <string name="phone" translatable="true">Phone No.</string>
+    <string name="Continue" translatable="true">Continue</string>
+    <string name="otp" translatable="true">OTP Verification</string>
+    <string name="otpon" translatable="true">OTP on your mobile</string>
+    <string name="Login" translatable="true">Login</string>
+    <string name="Farmerinfo" translatable="true">Farmer\'s</string>
+    <string name="Info">Information</string>
+    <string name="name" translatable="true">Name</string>
+    <string name="phoneno" translatable="true">Phone No. +91</string>
+    <string name="add" translatable="true">Address</string>
+    <string name="next" translatable="true">Next</string>
+    <string name="veg" translatable="true">Vegetable</string>
+    <string name="quan" translatable="true">Quantity in Kg.</string>
+    <string name="old" translatable="true">How old is vegetable in days?</string>
+    <string name="type" translatable="true">Type of Vegetable</string>
+    <string name="green" translatable="true">Green</string>
+    <string name="root" translatable="true">Root</string>
+    <string name="marrow" translatable="true">Marrow</string>
+    <string name="click" translatable="true">Click to Add</string>
+    <string name="want" translatable="true">Add More</string>
+    <string name="to" translatable="true">To the Marketplace</string>
+    <string name="days">Days</string>
+    <string name="kg" translatable="true">kg</string>
+    <string name="types" translatable="false">Type : </string>
+    <string name="quans" translatable="false">Quantity</string>
+    <string name="olds" translatable="false">Days Old : </string>
+    <string name="conts" translatable="false">Farmer\'s Contact</string>
+    <string name="vegadd" translatable="false">Vegetabble Added to the list!!</string>
+    <string name="load" translatable="false">Loading...</string>
+    <string name="call" translatable="false">CALL</string>
+    <string name="route" translatable="false">ROUTE</string>
+</resources>
